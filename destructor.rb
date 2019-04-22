@@ -53,7 +53,6 @@ class Destructor
       when node.text?
         buf << node.text
       when node.name == "hr"
-        p buf
         make_new_item(
           maker: maker,
           link: item.link,
